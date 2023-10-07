@@ -1,0 +1,78 @@
+.imgs {
+    width: 75vh;
+    height: 60vh;
+    border: 5px solid none ;
+    border-radius: 2%;
+}
+.slider {
+    display: flex;
+    margin-left: 52vh;
+    margin-top: 10vh;
+}
+.button {
+    height: 5vh;
+    margin-left: 6vh;
+    margin-top: 27vh;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: aliceblue;
+    font: bolder;
+    font-size: 30px;
+}
+.button:focus {
+    outline: none;
+}
+.prevbutton {
+    height: 5vh;
+    margin-right: 6vh;
+    margin-top: 27vh;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font: bolder;
+    font-size: 30px;
+    color: aliceblue;
+}
+.prevbutton:focus {
+    outline: none;
+}
+@keyframes buttonClick {
+    0% {
+      color: aliceblue;
+    }
+    50% {
+      color: rgb(58, 180, 182);
+    }
+    100% {
+      color: aliceblue;
+    }
+  }
+  
+  .prevbutton:active {
+    animation: buttonClick 0.5s;
+  }
+
+  @keyframes buttonClick {
+    0% {
+      color: aliceblue;
+    }
+    50% {
+      color: rgb(58, 180, 182);
+    }
+    100% {
+      color: aliceblue;
+    }
+  }
+  
+  .button:active {
+    animation: buttonClick 0.5s;
+  }
+
+body {
+    background-color:rgb(60, 58, 58);
+}
+
+

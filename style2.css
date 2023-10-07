@@ -1,0 +1,197 @@
+.playlist {
+    margin-left: 78vh;
+}
+
+.sings{
+    width: 20vh;
+    height: 5vh;
+    border-radius: 3vh;
+    border-width: 5px;
+    border-color: rgb(11, 176, 11);
+    background-color: rgb(25, 160, 25);
+    color: white;
+    text-align: center; 
+
+}
+
+
+.green-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .green-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .green-button:hover::before {
+    left: 0;
+  }
+  .sonnglist {
+    background-color: rgb(38, 173, 38);
+    width: 30vh;
+    margin-left: 80.57vh;
+    border: 0.789vh solid black;
+    color: white;
+  }
+  .pause-button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8bc34a;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .pause-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: width 0.2s ease-in-out;
+    z-index: -1;
+  }
+  
+  .pause-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .pause-button:hover::before {
+    width: 100%;
+  }
+  .play-pause {
+    margin-left: 75.6vh;
+  }
+  .sliders {
+    margin-left: 76vh;
+    margin-top: 10vh;
+  }
+  input[type="range"] {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    width: 50vh;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    /* overflow: hidden; */ /* removed this line */
+    /* New additions */
+    height: 6px;
+    background: #ccc;
+  }
+  
+  /* Thumb: webkit */
+  input[type="range"]::-webkit-slider-thumb {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    height: 15px;
+    width: 15px;
+    background-color: #f50;
+    border-radius: 50%;
+    border: none;
+    transition: .2s ease-in-out;
+  }
+  
+  /* Thumb: Firefox */
+  input[type="range"]::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: #f50;
+    border-radius: 50%;
+    border: none;
+    transition: .2s ease-in-out;
+  }
+  
+  /* Hover, active & focus Thumb: Webkit */
+  input[type="range"]::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 10px rgba(255, 85, 0, .1);
+  }
+  input[type="range"]:active::-webkit-slider-thumb {
+    box-shadow: 0 0 0 13px rgba(255, 85, 0, .2);
+  }
+  input[type="range"]:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 13px rgba(255, 85, 0, .2);
+  }
+  
+  /* Hover, active & focus Thumb: Firfox */
+  input[type="range"]::-moz-range-thumb:hover {
+    box-shadow: 0 0 0 10px rgba(255, 85, 0, .1);
+  }
+  input[type="range"]:active::-moz-range-thumb {
+    box-shadow: 0 0 0 13px rgba(255, 85, 0, .2);
+  }
+  input[type="range"]:focus::-moz-range-thumb {
+    box-shadow: 0 0 0 13px rgba(255, 85, 0, .2);
+  }
+  
+  /*=============
+  Aesthetics
+  =========================*/
+  
+
+  
+  .wrapper {
+    color: #4b4949;
+    background: #f50;
+    max-width: 400px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .range {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 20vh;
+    margin: 0 auto;
+    height: 4rem;
+    width: 80%;
+    background: #fff;
+    padding: 0px 10px;
+  }
+  
+  .value {
+    font-size: 26px;
+    width: 50px;
+    text-align: center;
+  }
+
+  .displays {
+      font-family: 'Roboto', sans-serif;
+     color: green;
+  }
+  .thinges {
+    margin-top: 20vh;
+  }
+  
+  

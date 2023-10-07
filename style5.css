@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.h {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+
+body {
+    align-items: center;
+    text-align: center;
+}
+
+.dt {
+    margin-top: 10vh;
+}
+
+.d1 {
+    margin-top: 10vh;
+}
+
+.as {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #121212; 
+    color: #00bfff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    cursor: pointer; 
+  }
+  
+  .btn:hover {
+    background-color: #00bfff; 
+    color: #121212;
+  }
+  .rand2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .rand1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .sbtn {
+    margin-top: 5vh;
+    background-color: #121212; 
+    color: #00bfff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    cursor: pointer; 
+  }
+  .sbtn:hover:hover {
+    background-color: #00bfff; 
+    color: #121212;
+  }
